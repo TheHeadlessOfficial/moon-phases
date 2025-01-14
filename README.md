@@ -10,7 +10,7 @@ If your `home` is named pippo, copy inside pippo so you get: `/home/pippo/.conky
 Go to `/home/YOURHOMENAME/.conky/moon/Moongiant_python` and open with a text editor the file `moongiantpy.py`, go to line 17 and edit your emisphere.<br>
 <br>
 The python script saves data in files so you can build your conky moon as you wish, modifing the `.conkyrc_moonpy` i attach.<br>
-Run the file `.conkyrc_moonpy` fron terminal, the first time you run this conky, so you can get errors. 
+Run the file `.conkyrc_moonpy` from terminal, the first time you run this conky, so you can get errors. 
 
 
 
