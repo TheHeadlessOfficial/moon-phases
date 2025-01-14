@@ -1,0 +1,4 @@
+day-2: Waxing Gibbous
+day-1: Waxing Gibbous
+day+1: Waning Gibbous
+day+2: Waning Gibbous
