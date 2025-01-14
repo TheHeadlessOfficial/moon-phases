@@ -22,6 +22,5 @@ What you get?<br>
 ![](https://github.com/TheHeadlessOfficial/moon-phases/blob/main/.conky/moon/Moongiant_python/Moongiant_README-INFO/screenshot_01.png)<br>
 
 <br>
-[📹 An introduction to Conky (YouTube)](https://www.youtube.com/watch?v=bHtpLEoRKmg&t=19s).
 
-![Markdown guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[Markdown guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
