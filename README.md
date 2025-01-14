@@ -32,4 +32,6 @@ Run the file `.conkyrc_moonpy` from terminal (the first time you run this conky)
 <br>
 <br>
 
+---
+
 [Markdown guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
