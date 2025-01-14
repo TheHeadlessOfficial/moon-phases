@@ -18,4 +18,4 @@ If your 'home' is named pippo, copy inside pippo so you get: /home/pippo/.conky 
 <br>
 Whay you get?<br>
 
-![](https://github.com/TheHeadlessOfficial/conky-moon-phases/blob/main/.conky/moon/Moongiant_python/Moongiant_README-INFO/screenshot_01.png)
+![](https://github.com/TheHeadlessOfficial/moon-phases/.conky/moon/Moongiant_python/Moongiant_README-INFO/screenshot_01.png)
