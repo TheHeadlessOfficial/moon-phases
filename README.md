@@ -1,6 +1,6 @@
 # Conky Moon Phases
  
-A standalone conky (written in Python) that shows the moon phases, using [moongiant.com](https:www/moongiant.com) website.<br>
+A standalone conky (written in Python) that shows the moon phases, using [moongiant.com](https://www.moongiant.com/) website.<br>
 Based on https://gitlab.com/teobigusgeekus/Moongiant_conky_script<br>
 <br>
 <br>
