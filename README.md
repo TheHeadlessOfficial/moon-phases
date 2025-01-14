@@ -12,7 +12,8 @@ Go to `/home/YOURHOMENAME/.conky/moon/Moongiant_python/font` and install the fon
 If your `home` is named *pippo*, copy inside *pippo* so you get: `/home/pippo/.conky` and `/home/pippo/.conkyrc_moonpy`<br>
 Go to `/home/YOURHOMENAME/.conky/moon/Moongiant_python` and open with a text editor the file `moongiantpy.py`, go to line 17 and edit your emisphere.<br>
 <br>
-The python script saves data in files so you can build your conky moon as you wish, modifying the `.conkyrc_moonpy` i attach.<br>
+The python script saves data in files so you can build your conky moon as you wish.<br>
+The `.conkyrc_moonpy` file i attach, works.<br>
 Run the file `.conkyrc_moonpy` from terminal (the first time you run this conky), so you can get possible errors. 
 
 
