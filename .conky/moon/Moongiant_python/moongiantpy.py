@@ -56,7 +56,7 @@ fo.close()
 ###################################                  delete no usefull rows from the previous txt file and save in RAWSTRIPPEDCLEAN.TXT
 with open(filepath2) as old, open(filepath3, 'w') as new:
     lines = old.readlines()
-    new.writelines(lines[1180:-364]) # time to time the website changes, check and change the row number
+    new.writelines(lines[1170:-364]) # time to time the website changes, check and change the row number
 ###################################                  delete empty rows and save in RAWSTRIPPEDCLEANROWS.TXT
 with open(filepath3) as infile, open(filepath4, 'w') as outfile:
     for line in infile:
@@ -70,7 +70,7 @@ counter = 0
 lm2temp = 0
 with open(filepath4, 'r') as fo:
     lines = fo.read().splitlines()
-    for counter in range(0, 9):
+    for counter in range(0, 5):
         if month in lines[counter]:
             lm2temp = counter
             lm2 = lm2temp + 0 #5
@@ -78,40 +78,40 @@ with open(filepath4, 'r') as fo:
             lp1 = lm2temp + 3 #11
             lp2 = lm2temp + 4 #13
             lines[lm2] = lines[lm2].strip()
-            illumi3 = lines[lm2]
+            illumim2 = lines[lm2]
             lines[lm1] = lines[lm1].strip()
-            illumi5 = lines[lm1]
+            illumim1 = lines[lm1]
             lines[lp1] = lines[lp1].strip()
-            illumi9 = lines[lp1]
+            illumip1 = lines[lp1]
             lines[lp2] = lines[lp2].strip()
-            illumi11 = lines[lp2]
-            illumi3 = illumi3[-3:]
-            if illumi3 == '00%':
-               illumi3 = '100%'
-            illumi5 = illumi5[-3:]
-            if illumi5 == '00%':
-               illumi5 = '100%'
-            illumi9 = illumi9[-3:]
-            if illumi9 == '00%':
-               illumi9 = '100%'
-            illumi11 = illumi11[-3:]
-            if illumi11 == '00%':
-               illumi11 = '100%'
+            illumip2 = lines[lp2]
+            illumim2 = illumim2[-3:]
+            if illumim2 == '00%':
+               illumim2 = '100%'
+            illumim1 = illumim1[-3:]
+            if illumim1 == '00%':
+               illumim1 = '100%'
+            illumip1 = illumip1[-3:]
+            if illumip1 == '00%':
+               illumip1 = '100%'
+            illumip2 = illumip2[-3:]
+            if illumip2 == '00%':
+               illumip2 = '100%'
             for pattern in alphabetpatterns:
-               if re.findall(pattern, illumi3):
-                  illumi3 = illumi3[1:]
-               if re.findall(pattern, illumi5):
-                  illumi5 = illumi5[1:]
-               if re.findall(pattern, illumi9):
-                  illumi9 = illumi9[1:]
-               if re.findall(pattern, illumi11):
-                  illumi11 = illumi11[1:]
+               if re.findall(pattern, illumim2):
+                  illumim2 = illumim2[1:]
+               if re.findall(pattern, illumim1):
+                  illumim1 = illumim1[1:]
+               if re.findall(pattern, illumip1):
+                  illumip1 = illumip1[1:]
+               if re.findall(pattern, illumip2):
+                  illumip2 = illumip2[1:]
             ###################################                  write the illumination
             fo = open(filepath5, 'w')
-            fo.write('{}\n'.format(illumi3))
-            fo.write('{}\n'.format(illumi5))
-            fo.write('{}\n'.format(illumi9))
-            fo.write('{}\n'.format(illumi11))
+            fo.write('{}\n'.format(illumim2))
+            fo.write('{}\n'.format(illumim1))
+            fo.write('{}\n'.format(illumip1))
+            fo.write('{}\n'.format(illumip2))
             fo.close()
             ###################################                  find the match for the phases and write them
             for pattern in phasespatterns:
@@ -305,7 +305,7 @@ with open(filepath4, 'r') as fo:
                         fo.write('{}\n'.format(linespics[rp2i]))
                         fo.write('{}\n'.format(linespics[rimm]))
                         fo.close()
-            #sys.exit()
+        sys.exit()
 ###################################                  create CURRENT statement to use in conky file
 num1 = 28
 num2 = num1 + 1
