@@ -16,6 +16,6 @@ The python script saves data in files so you can build your conky moon as you wi
 
 <br>
 <br>
-Whay you get?<br>
+What you get?<br>
 
 ![](https://github.com/TheHeadlessOfficial/moon-phases/blob/main/.conky/moon/Moongiant_python/Moongiant_README-INFO/screenshot_01.png)
