@@ -17,7 +17,9 @@ Run the file `.conkyrc_moonpy` from terminal (the first time you run this conky)
 
 <br>
 <br>
+
 ## Screenshot
+
 <br>
 
 ![](https://github.com/TheHeadlessOfficial/moon-phases/blob/main/.conky/moon/Moongiant_python/Moongiant_README-INFO/screenshot_01.png)<br>
