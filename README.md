@@ -8,7 +8,7 @@ Wiki<br>
 Download the .zip file, copy the file .conkyrc_moonpy and the folder .conky inside your Linux 'home'.<br>
 If your 'home' is named pippo, copy inside pippo so you get: /home/pippo/.conky and /home/pippo/.conkyrc_moonpy<br>
 <br>
-
+The python script saves data in files so you canbuil your conky moon as you wish.<br>
 
 
 
@@ -17,5 +17,5 @@ If your 'home' is named pippo, copy inside pippo so you get: /home/pippo/.conky 
 <br>
 <br>
 Whay you get?<br>
-
+<br>
 ![](https://github.com/TheHeadlessOfficial/moon-phases/blob/main/.conky/moon/Moongiant_python/Moongiant_README-INFO/screenshot_01.png)
