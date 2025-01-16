@@ -98,7 +98,7 @@ conky.config = {
 -- so double buffer won't be so big.
 	double_buffer = true,
 --#############################################  End Miscellaneous Section  ###
-	update_interval = 3600,
+	update_interval = 600,
 
 
 };
