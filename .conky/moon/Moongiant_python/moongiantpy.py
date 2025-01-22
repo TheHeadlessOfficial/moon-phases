@@ -5,7 +5,7 @@ import requests
 import datetime
 from bleach.sanitizer import Cleaner
 # Lock file to tell conky that the script is running
-lock_file = "/tmp/script_done.lock"
+lock_file = "/tmp/script_moon.lock"
 try:
     # Create lock file
     open(lock_file, 'w').close()
