@@ -7,7 +7,7 @@ from bleach.sanitizer import Cleaner
 # Lock file to tell conky that the script is running
 lock_file = "/tmp/script_moon.lock"
 try:
-    # Create lock file
+    # Check for file lock
     open(lock_file, 'w').close()
     # get your HOME name
     homepath = os.environ['HOME']
