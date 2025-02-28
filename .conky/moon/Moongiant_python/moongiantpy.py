@@ -1,14 +1,14 @@
-import os, sys
-import re
-import shutil
-import requests
-import datetime
-from bleach.sanitizer import Cleaner
 # Lock file to tell conky that the script is running
 lock_file = "/tmp/script_moon.lock"
 try:
     # Check for file lock
     open(lock_file, 'w').close()
+    import os, sys
+    import re
+    import shutil
+    import requests
+    import datetime
+    from bleach.sanitizer import Cleaner
     # get your HOME name
     homepath = os.environ['HOME']
     homename = homepath
